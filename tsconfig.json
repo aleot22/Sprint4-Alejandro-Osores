@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./", // Puedes ajustar esto según la estructura de tu proyecto
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./index.ts" // Ruta al archivo index.ts o patrón de inclusión de tus archivos fuente
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
